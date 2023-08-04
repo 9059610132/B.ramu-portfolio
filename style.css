@@ -449,6 +449,9 @@
       .navbar a {
         padding: 1.5rem;
       }
+      .navbar.dark-mode a {
+        color: #000;
+      }
       .navbar.active {
           top: 60px;
           box-shadow: 0 4px 4px rgb(0 0 0 / 10%);
