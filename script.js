@@ -33,7 +33,7 @@ function downloadResume() {
   const resumeFile = 'resume.pdf';
   const link = document.createElement('a');
   link.href = resumeFile;
-  link.download = 'YourResume.pdf'; // Change the name of the downloaded file if needed
+  link.download = 'Ramuresume.pdf'; // Change the name of the downloaded file if needed
   document.body.appendChild(link);
   link.click();
   document.body.removeChild(link);
